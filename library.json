@@ -1,0 +1,49 @@
+{
+    "name": "pico-elliptic-curve",
+    "version": "1.0.0",
+    "description": "A lightweight Elliptic Curve Cryptography (ECC) library for Raspberry Pi Pico W using the Arduino-Pico core which includes BearSSL.",
+    "keywords": "elliptic-curve, encryption, cryptography, bearssl, pico, pico-arduino, security",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/IoT-gamer/pico-elliptic-curve.git"
+    },
+    "authors": [
+      {
+        "name": "Sean P. Leary",
+        "email": "sunrecorder1@gmail.com",
+        "maintainer": true
+      }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/IoT-gamer/pico-elliptic-curve",
+    "frameworks": "arduino",
+    "platforms": ["raspberrypi"],
+    "dependencies": {
+        "earlephilhower/arduino-pico": ">=4.4.4"
+    },
+    "exclude": [
+        "examples/Curve25519Example/.pio",
+        "examples/Curve25519Example/.vscode/.browse.c_cpp.db*",
+        "examples/Curve25519Example/.vscode/c_cpp_properties.json",
+        "examples/Curve25519Example/.vscode/launch.json",
+        "examples/Curve25519Example/.vscode/ipch",
+        "examples/Curve25519Example/logs/",
+        "examples/ECDHKeyExchange/.pio",
+        "examples/ECDHKeyExchange/.vscode/.browse.c_cpp.db*",
+        "examples/ECDHKeyExchange/.vscode/c_cpp_properties.json",
+        "examples/ECDHKeyExchange/.vscode/launch.json",
+        "examples/ECDHKeyExchange/.vscode/ipch",
+        "examples/ECDHKeyExchange/logs/",
+        "examples/SimpleSignAndVerify/.pio",
+        "examples/SimpleSignAndVerify/.vscode/.browse.c_cpp.db*",
+        "examples/SimpleSignAndVerify/.vscode/c_cpp_properties.json",
+        "examples/SimpleSignAndVerify.vscode/launch.json",
+        "examples/SimpleSignAndVerify/.vscode/ipch",
+        "examples/SimpleSignAndVerify/logs/",
+        ".git",
+        ".github",
+        "*.sh",
+        "*.yml",
+        "*.tar.gz"
+    ]
+  }
